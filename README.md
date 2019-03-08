@@ -119,6 +119,7 @@ git flow release finish '0.1.0'
 ```
 
 #### Hotfix分支
+![3](images/image3.svg)）
 
 维护或*hotfix*分支用于快速修补生产版本。*hotfix*分支很像*release*分支和*feature*分支，只不过它们是基于*master*而不是*develop*。这是唯一应该直接从*master*上fork的分支。一旦修复完成，就应该将其合并到*master*和*develop*(或当前*release*分支)中，并且应该用更新的版本号标记*master*分支。
 
